@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(233, 136, 101);
+}
+header h1{
+    text-align: center;
+    color: #fff; 
+}
+form{
+    text-align: center;
+}
+form input{
+    height: 30px;
+    width: 80%;
+}
+span:hover{
+    cursor: pointer;
+}
+main{
+    width: 500px;
+    height: 500px;
+    border: solid 2px orangered;
+    margin: 50px auto;
+    padding: 30px;
+}
+main ul li{
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+ul{
+    width: 100%;
+    background-color: blanchedalmond;
+}
+.close{
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    padding: 10px;
+    bottom: 3px;
+}
+.close:hover{
+    background-color: beige;
+}
